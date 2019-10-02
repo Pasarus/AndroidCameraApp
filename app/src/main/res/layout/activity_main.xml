@@ -8,14 +8,13 @@
 
     <TextureView
         android:id="@+id/textureView"
-        android:layout_width="372dp"
-        android:layout_height="655dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="370dp"
+        android:layout_height="603dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/camButton"
@@ -30,5 +29,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textureView"
         app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+        android:id="@+id/camIdSpinner"
+        android:layout_width="369dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/textureView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
